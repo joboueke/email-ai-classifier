@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Classificador de Emails com IA</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Classificador de Emails com IA</h1>
+        <p class="subtitle">
+            Automatize a leitura, classificação e resposta de emails corporativos
+        </p>
+
+        <!-- TEXTO -->
+        <label>Email (texto)</label>
+        <textarea id="emailText" placeholder="Cole o conteúdo do email aqui..."></textarea>
+        <button class="primary" onclick="classifyText()">Classificar Texto</button>
+
+        <div class="divider">ou</div>
+
+        <!-- UPLOAD -->
+        <label>Upload de arquivo (.txt ou .pdf)</label>
+        <input type="file" id="fileInput" accept=".txt,.pdf">
+        <button class="secondary" onclick="uploadFile()">Enviar Arquivo</button>
+
+        <!-- LOADING -->
+        <div id="loading" class="loading hidden">
+             Processando email...
+        </div>
+
+        <!-- RESULTADO -->
+        <div id="result" class="result hidden">
+            <h3>Resultado</h3>
+
+            <span id="category" class="badge"></span>
+
+            <p class="response-title">Resposta sugerida</p>
+            <p id="response" class="response"></p>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
