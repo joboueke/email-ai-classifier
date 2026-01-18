@@ -137,7 +137,7 @@ Classificação: **Improdutivo**
 
 ## Vídeo Demonstrativo
 
-📺 Vídeo de apresentação (3–5 minutos): *(inserir link do YouTube aqui)*
+📺 Vídeo de apresentação: https://www.youtube.com/watch?v=s-ZqGE_b8I8
 
 O vídeo demonstra:
 
