@@ -98,8 +98,6 @@ pip install -r requirements.txt
 Crie um arquivo `.env` na raiz do projeto:
 HF_API_TOKEN=hf_seu_token_aqui
 
->  O token da Hugging Face **não deve ser versionado**.
-
 ### Executar a aplicação
 
 uvicorn app.main:app --reload
