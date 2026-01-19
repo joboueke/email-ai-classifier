@@ -132,7 +132,7 @@ Classificação: **Improdutivo**
 
 ## Vídeo Demonstrativo
 
-📺 Vídeo de apresentação: https://www.youtube.com/watch?v=s-ZqGE_b8I8
+Vídeo de apresentação: https://www.youtube.com/watch?v=s-ZqGE_b8I8
 
 O vídeo demonstra:
 
@@ -143,7 +143,7 @@ O vídeo demonstra:
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **João Hollanda Boueke**
 Estudante de Análise e Desenvolvimento de Sistemas
