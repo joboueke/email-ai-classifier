@@ -42,9 +42,6 @@ A aplicação segue uma arquitetura simples e eficiente:
    * **Classificação**: abordagem heurística com técnicas básicas de NLP (keywords)
    * **Geração de resposta**: Hugging Face Inference API (modelo generativo)
 
-> A abordagem híbrida foi escolhida para garantir **confiabilidade na classificação** e **uso eficiente da IA**, aplicando modelos generativos onde eles agregam mais valor.
-
----
 
 ## Tecnologias Utilizadas
 
@@ -104,8 +101,8 @@ uvicorn app.main:app --reload
 
 Acesse:
 
-* Interface web: [http://127.0.0.1:8000/ui](http://127.0.0.1:8000/ui)
-* Documentação da API: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+* Interface web: [http://127.0.0.1:8000/ui]
+* Documentação da API: [http://127.0.0.1:8000/docs]
 
 ---
 
